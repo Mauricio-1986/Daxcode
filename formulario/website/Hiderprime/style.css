@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #00050d;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.primeiraparte{
+    display: flex;
+    align-items: center;
+}
+.primeiraparte img{
+
+    width: 96px;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.primeiraparte nav{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.primeiraparte nav a{
+    font-weight: 550;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.primeiraparte nav a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #00050d;
+}
+a:hover .rodar{
+    color: #00050d;
+}
+
+.primeiraparte nav a .rodar{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+}
+#link{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#segundaparte{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-right: 32px;
+}
+#segundaparte i{
+font-size: 20px;
+}
+
+#segundaparte .estilounico{
+    padding: 10px 10px;
+}
+
+#segundaparte .estilounico:hover{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.estilounico:hover i{
+    color: #00050d;
+}
+    
+    
+
+
+#segundaparte button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+#segundaparte button:hover{
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+button:hover i{
+    color: #00050d;
+}
+
+#segundaparte .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+#segundaparte .imgs:hover{
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+#segundaparte img{
+    width: 30px;
+    cursor: pointer;
+}
+#assinar{
+    background-color: #1a98ff;
+    border-radius: 10px;
+    padding: 11px 14px;
+    font-weight: 550;
+}
+#assinar:hover{
+    background-color:rgba(26,152,255,) ;
+    box-shadow: 0 -4px 16px 0 rgba(255, 255, 255, 0.678);
+}

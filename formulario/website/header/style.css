@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #ffe600;
+    padding: 10px 90px;
+}
+#primeirodive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.logo1{
+    width: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.inputs{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin-left: -22px;
+    background-color: #fff;
+}
+.inputs input{
+    width: 590px;
+    padding: 10px 20px 10px 16px;
+    height: 43px;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.inputs label{
+    
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs label i{
+    font-size: 21px;
+    color: rgba(0, 0, 0,0.55);
+    content: ;
+    width:1px ;
+    height:20px ;
+    margin-right: 10px;
+    opacity: 0,3;
+
+}
+.inputs label i{
+    font-size: ;
+}

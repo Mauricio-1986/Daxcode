@@ -1,0 +1,17 @@
+
+var prompt = require('prompt-sync')();
+
+  let x = 4 
+  let y = x + 2
+
+  for (let i = 0; i< x; i ++){
+    console.log(x + " " + y)
+    y = y + i                                                                                                                                                                              
+  }
+
+
+
+
+
+
+
