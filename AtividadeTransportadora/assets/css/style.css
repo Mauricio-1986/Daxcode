@@ -1,0 +1,26 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+   text-decoration: none;
+}
+
+header {
+    background: #545454;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20% ;
+}
+
+
+
+#inicio{
+    background-image: url("../images/caminhaoBackground.png");
+    height: 100vh;    
+    background-size:  100%;
+    background-repeat: no-repeat;
+    
+}
